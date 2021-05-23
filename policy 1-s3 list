@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "access-analyzer:ListAccessPreviews",
+                "access-analyzer:ListArchiveRules"
+            ],
+            "Resource": "arn:aws:access-analyzer:*:330267743237:analyzer/*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "access-analyzer:ListAnalyzers",
+            "Resource": "*"
+        }
+    ]
+}
