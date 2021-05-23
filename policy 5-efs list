@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "elasticfilesystem:DescribeAccessPoints",
+                "elasticfilesystem:DescribeFileSystems"
+            ],
+            "Resource": [
+                "arn:aws:elasticfilesystem:*:330267743237:access-point/*",
+                "arn:aws:elasticfilesystem:*:330267743237:file-system/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "elasticfilesystem:DescribeAccountPreferences",
+            "Resource": "*"
+        }
+    ]
+}
